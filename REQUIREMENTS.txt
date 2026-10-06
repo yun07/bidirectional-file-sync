@@ -1,0 +1,19 @@
+# Bidirectional File Sync
+# Original implementation: approximately 2016
+
+## Historical implementation
+
+The original implementation depended on:
+
+- Python
+- ruamel.yaml
+
+The exact Python and ruamel.yaml versions used by the original production environment are not known.
+
+The original implementation also assumes a Windows filesystem environment and access to both a local working directory and an internal server location.
+
+## Current repository
+
+The historical implementation is preserved for reference and is not currently guaranteed to run unchanged on a modern Python installation.
+
+The modernized implementation will define its runtime and package dependencies separately once the refactoring phase begins.
